@@ -1,0 +1,25 @@
+{
+	"name": "iwinmin/php_apk_parser",
+	"description": "Apk Parser for PHP",
+	"homepage": "https://github.com/iwinmin/php_apk_parser",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Katana",
+			"homepage": "http://www.win-ing.cn"
+		},
+		{
+			"name": "Vea",
+			"homepage": "http://www.f2016.cn"
+		}
+	],
+	"require": {
+		"php":">=5.3",
+		"ext-zip": "*"
+	},
+	"minimum-stability": "stable",
+	"autoload": {
+		"psr-4": {"Apk\\": "src/"}
+	}
+}
